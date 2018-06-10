@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>風呂トイレ別</string>
+		<string>独立洗面台</string>
+		<string>追い焚き機能</string>
+		<string>浴室乾燥機</string>
+		<string>温水洗浄便座</string>
+	</array>
+	<array>
+		<string>コンロ2口以上</string>
+		<string>ガスキッチン</string>
+		<string>IHクッキングヒーター</string>
+		<string>システムキッチン</string>
+		<string>カウンターキッチン</string>
+		<string>冷蔵庫あり</string>
+	</array>
+	<array>
+		<string>オートロック</string>
+		<string>モニター付インターホン</string>
+		<string>24時間セキュリティ</string>
+	</array>
+	<array>
+		<string>インターネット対応</string>
+		<string>光ファイバー</string>
+		<string>BSアンテナ</string>
+		<string>CATV</string>
+	</array>
+</array>
+</plist>
