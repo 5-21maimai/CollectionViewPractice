@@ -26,7 +26,8 @@ class CollectionViewController: UIViewController, UIGestureRecognizerDelegate {
         // レイアウト
         collectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: layout)
         
-        collectionView.register(CollectionViewCell.self, forCellWithReuseIdentifier: "MyCell")
+        let kodawariXib = UINib(nibName:"KodawariViewCell", bundle:nil)
+        collectionView.register(kodawariXib, forCellWithReuseIdentifier: "MyCell")
         collectionView.register(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "HeaderSection")
 //        collectionView.register(FooterView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionFooter, withReuseIdentifier: "FooterSection")
         collectionView.backgroundColor = UIColor.white
@@ -66,7 +67,7 @@ extension CollectionViewController: UICollectionViewDelegate, UICollectionViewDa
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCell",
-                                                      for: indexPath as IndexPath) as! CollectionViewCell
+                                                      for: indexPath as IndexPath) as! KodawariViewCell
         
         cell.titleLabel.text = presenter.item(indexPath: indexPath)
         return cell

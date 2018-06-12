@@ -15,7 +15,8 @@ class CollectionViewCell: UICollectionViewCell {
         super.init(frame: frame)
         
         titleLabel = UILabel(frame: CGRect(x:0, y:0, width:frame.width, height:frame.height))
-        titleLabel?.textAlignment = NSTextAlignment.center
+        titleLabel.textAlignment = NSTextAlignment.center
+        titleLabel.numberOfLines = 0
         
         self.addSubview(titleLabel)
         

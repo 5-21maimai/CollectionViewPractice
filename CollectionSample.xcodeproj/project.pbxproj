@@ -18,6 +18,8 @@
 		134856D720CD37C7005B6E40 /* KodawariModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134856D620CD37C7005B6E40 /* KodawariModel.swift */; };
 		134856D920CD38E6005B6E40 /* Kodawari.plist in Resources */ = {isa = PBXBuildFile; fileRef = 134856D820CD38E5005B6E40 /* Kodawari.plist */; };
 		134856DB20CD6588005B6E40 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134856DA20CD6588005B6E40 /* CollectionViewCell.swift */; };
+		1391DED920D0187800D285F2 /* KodawariViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1391DED720D0187800D285F2 /* KodawariViewCell.swift */; };
+		1391DEDA20D0187800D285F2 /* KodawariViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1391DED820D0187800D285F2 /* KodawariViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		134856D620CD37C7005B6E40 /* KodawariModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodawariModel.swift; sourceTree = "<group>"; };
 		134856D820CD38E5005B6E40 /* Kodawari.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Kodawari.plist; sourceTree = "<group>"; };
 		134856DA20CD6588005B6E40 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1391DED720D0187800D285F2 /* KodawariViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodawariViewCell.swift; sourceTree = "<group>"; };
+		1391DED820D0187800D285F2 /* KodawariViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KodawariViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				134856AD20C567E4005B6E40 /* LaunchScreen.storyboard */,
 				134856B020C567E4005B6E40 /* Info.plist */,
 				134856D820CD38E5005B6E40 /* Kodawari.plist */,
+				1391DED720D0187800D285F2 /* KodawariViewCell.swift */,
+				1391DED820D0187800D285F2 /* KodawariViewCell.xib */,
 			);
 			path = CollectionSample;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 			files = (
 				134856D920CD38E6005B6E40 /* Kodawari.plist in Resources */,
 				134856AF20C567E4005B6E40 /* LaunchScreen.storyboard in Resources */,
+				1391DEDA20D0187800D285F2 /* KodawariViewCell.xib in Resources */,
 				134856AC20C567E4005B6E40 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +280,7 @@
 			files = (
 				134856D320C58AAB005B6E40 /* FooterView.swift in Sources */,
 				134856A720C567E4005B6E40 /* CollectionViewController.swift in Sources */,
+				1391DED920D0187800D285F2 /* KodawariViewCell.swift in Sources */,
 				134856DB20CD6588005B6E40 /* CollectionViewCell.swift in Sources */,
 				134856D720CD37C7005B6E40 /* KodawariModel.swift in Sources */,
 				134856D520CD362E005B6E40 /* CollectionViewPresenter.swift in Sources */,
@@ -437,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9EG27PSKV;
 				INFOPLIST_FILE = CollectionSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = matsuimai.CollectionSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9EG27PSKV;
 				INFOPLIST_FILE = CollectionSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = matsuimai.CollectionSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
